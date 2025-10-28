@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="1. Sayıyı Giriniz"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="2. Sayıyı Giriniz"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="202dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="Sonuc"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <LinearLayout
+        android:layout_width="318dp"
+        android:layout_height="56dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="330dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="72dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="28dp"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="72dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="28dp"
+            tools:text="-" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="72dp"
+            android:layout_height="39dp"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="72dp"
+            android:layout_height="39dp"
+            android:text="/" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
